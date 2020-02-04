@@ -1,0 +1,38 @@
+package com.testing.org;
+
+import java.util.ArrayList;
+
+public class primeNum {
+
+	public static ArrayList<Integer> getPrimeNums(int totalNums) {
+		ArrayList<Integer> primeNums = new ArrayList<>();
+		for (int i = 2; i < totalNums ; i++) {
+		
+			boolean isprime = false; 	
+			
+			for (int j = 2; j < 10; j++) {
+		
+				if(i%j == 0) break;
+				else isprime = true;
+			
+			}
+			
+			if(isprime) primeNums.add(i);
+			
+		}
+		
+		
+		
+		
+		return primeNums;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(getPrimeNums(100));
+		
+	}
+
+}

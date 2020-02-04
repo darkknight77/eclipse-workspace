@@ -1,0 +1,40 @@
+package com.testing.org;
+
+import java.util.ArrayList;
+
+public class primeNum {
+
+	//2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, and 97
+	
+	public static ArrayList<Integer> getPrimeNums(int totalNums) {
+		ArrayList<Integer> primeNums = new ArrayList<>();
+		for (int i = 1; i < totalNums ; i++) {
+		
+			boolean isprime = false; 	
+			
+			for (int j = 2; j < 10/2; j++) {
+		
+				if(i%j == 0) break;
+				else isprime = true;
+			
+			}
+			
+			if(isprime) primeNums.add(i);
+			
+		}
+		
+		
+		
+		
+		return primeNums;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(getPrimeNums(100));
+		
+	}
+
+}

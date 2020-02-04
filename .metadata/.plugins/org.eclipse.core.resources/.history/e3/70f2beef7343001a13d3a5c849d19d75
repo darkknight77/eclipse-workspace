@@ -1,0 +1,5 @@
+package com.ranga.dao;
+
+public class EmployeeDAO {
+
+}
