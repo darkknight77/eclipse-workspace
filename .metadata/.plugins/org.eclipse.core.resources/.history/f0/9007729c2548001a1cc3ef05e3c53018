@@ -1,0 +1,27 @@
+package com.testing.org;
+
+public class PrePostIncDec {
+
+	
+	private void preInc(int num) {
+		System.out.println("Given num"+ num);
+		System.out.println("Given num before pre increment"+ num);
+        ++num;
+        System.out.println("Given num after pre increment"+ num);
+        
+	}
+	
+	private void preDec(int num) {
+		System.out.println("Given num"+ num);
+		System.out.println("Given num before pre decrement"+ num);
+        --num;
+        System.out.println("Given num after pre decrement"+ num);
+        
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
