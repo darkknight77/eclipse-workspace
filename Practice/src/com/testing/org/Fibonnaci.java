@@ -19,7 +19,6 @@ public class Fibonnaci {
 			fibonnaciNums.add(c);
 			a = b;
 			b = c;
-
 		}
 
 		return fibonnaciNums;
@@ -49,6 +48,7 @@ public class Fibonnaci {
 		// TODO Auto-generated method stub
 		System.out.println(getFibonnaciWhile(100));
 		System.out.println(getFibonnaciFor(100));
+		
 	}
 
 }

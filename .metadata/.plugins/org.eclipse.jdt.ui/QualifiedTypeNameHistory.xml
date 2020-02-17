@@ -7,11 +7,19 @@
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.testing.org.Animal"/>
+<fullyQualifiedTypeName name="com.testing.org.RuntimePolymorphism"/>
+<fullyQualifiedTypeName name="com.testing.org.CompileTimePolymorphism"/>
+<fullyQualifiedTypeName name="com.testing.org.Redmi"/>
+<fullyQualifiedTypeName name="com.testing.org.Phone"/>
+<fullyQualifiedTypeName name="com.testing.org.Iphone"/>
+<fullyQualifiedTypeName name="com.testing.org.Phone1"/>
+<fullyQualifiedTypeName name="com.testing.org.Iphone1"/>
 </qualifiedTypeNameHistroy>

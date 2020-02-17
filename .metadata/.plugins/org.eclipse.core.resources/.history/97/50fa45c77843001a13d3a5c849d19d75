@@ -1,5 +1,0 @@
-package com.ranga.service;
-
-public interface EmployeeService {
-
-}

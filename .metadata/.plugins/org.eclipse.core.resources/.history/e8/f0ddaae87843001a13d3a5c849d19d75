@@ -1,5 +1,0 @@
-package com.ranga.dao;
-
-public interface EmployeeDAO {
-
-}

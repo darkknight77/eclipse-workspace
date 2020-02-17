@@ -1,0 +1,35 @@
+package com.testing.org;
+
+public class FindDupInArr {
+
+	
+	private static void findDups(int arr[]) {
+		
+
+		for (int i = 0; i < arr.length; i++) {
+			
+			int numCount = 0;
+			for (int j = i+1; j < arr.length; j++) {
+				
+				if(arr[i]==arr[j]) 
+					{
+					++numCount; 
+					}
+				System.out.println(i +" : "+ numCount);
+			}
+			
+			
+		}
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = { 1, 10, 22, 33, 44, 70, 55, 66, 77 };
+
+		findDups(arr);
+	}
+
+}
