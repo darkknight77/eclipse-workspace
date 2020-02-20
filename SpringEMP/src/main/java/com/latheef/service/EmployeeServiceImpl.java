@@ -25,19 +25,19 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public long createEmployee(Employee employee) {
 		// TODO Auto-generated method stub
-		return 0;
+		 return employeeDAO.createEmployee(employee);
 	}
 
 	@Override
 	public Employee updateEmployee(Employee employee) {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeDAO.updateEmployee(employee);
 	}
 
 	@Override
 	public void deleteEmployee(long id) {
-		// TODO Auto-generated method stub
 		
+		employeeDAO.deleteEmployee(id);
 	}
 
 	@Override
@@ -49,14 +49,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public Employee getEmployee(long id) {
 		// TODO Auto-generated method stub
-		return null;
+		return employeeDAO.getEmployee(id);
 	}
 
-	@Override
-	public List<Employee> getAllEmployees(String employeeName) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	 @Override
+	    public List<Employee> getAllEmployees(String employeeName) {
+	        return employeeDAO.getAllEmployees(employeeName);
+	    }
 
 	
 

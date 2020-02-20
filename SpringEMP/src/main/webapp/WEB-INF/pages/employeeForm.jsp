@@ -37,10 +37,10 @@
                 <form:form id="employeeRegisterForm" cssClass="form-horizontal" modelAttribute="employee" method="post" action="saveEmployee">
     
                     <div class="form-group">
-                        <div class="control-label col-xs-3"> <form:label path="name" >Name</form:label> </div>
+                        <div class="control-label col-xs-3"> <form:label path="ename" >Name</form:label> </div>
                         <div class="col-xs-6">
                             <form:hidden path="id" value="${employeeObject.id}"/>
-                            <form:input cssClass="form-control" path="name" value="${employeeObject.name}"/>
+                            <form:input cssClass="form-control" path="ename" value="${employeeObject.ename}"/>
                         </div>
                     </div>
     
