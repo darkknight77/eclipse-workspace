@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class ArmstrongNum {
 
-	// 0, 1, 153, 370, 371 and 407
+	// 0, 1, 153, 370, 371, 407, 1634
 
 	public static ArrayList<Integer> getArmstrongNums(int count) {
 

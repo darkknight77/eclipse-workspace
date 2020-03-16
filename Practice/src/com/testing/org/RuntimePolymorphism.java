@@ -12,21 +12,22 @@ class Dog extends Animal{
 	}
 }
 class Cat extends Animal{
-	
+	public void sound() {
+		System.out.println("Meoww");
+	}
 }
 
 public class RuntimePolymorphism extends Cat{
 
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		/*
 		 * Dog dog = new RuntimePolymorphism(); dog.sound();
 		 */
 		Cat cat = new RuntimePolymorphism(); 
 		cat.sound();
-		Animal animal =new RuntimePolymorphism();
+		Animal animal = new RuntimePolymorphism();
 		animal.sound();
 	}
 
