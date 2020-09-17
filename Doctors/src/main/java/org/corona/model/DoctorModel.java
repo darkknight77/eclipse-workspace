@@ -17,12 +17,12 @@ public class DoctorModel {
 	@Column(name = "Dname")
 	String dName;
 	@Column(name = "salary")
-	int salary;
+	float salary;
 	@Column(name = "specialization")
 	String specialization;
 
 	
-	public DoctorModel(int id, String dName, int salary, String specialization) {
+	public DoctorModel(int id, String dName, float salary, String specialization) {
 		super();
 		this.id = id;
 		this.dName = dName;
@@ -50,11 +50,11 @@ public class DoctorModel {
 		this.dName = dName;
 	}
 
-	public int getSalary() {
+	public float getSalary() {
 		return salary;
 	}
 
-	public void setSalary(int salary) {
+	public void setSalary(float salary) {
 		this.salary = salary;
 	}
 

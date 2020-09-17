@@ -17,4 +17,25 @@ public class DoctorService {
 		return doctorDao.getDoctors();
 	}
 
+	public List<DoctorModel> getDoctors(String doctorName) {
+		// TODO Auto-generated method stub
+		return doctorDao.getDoctors(doctorName);
+	}
+
+	public DoctorModel getDoctor(int id) {
+		
+		return doctorDao.getDoctor(id);
+	}
+
+	public void updateDoctor(DoctorModel doctor) {
+		// TODO Auto-generated method stub
+		doctorDao.updateDoctor(doctor);
+	}
+
+	public void deleteDoctor(DoctorModel doctor) {
+		// TODO Auto-generated method stub
+		
+		doctorDao.deleteDoctor(doctor);
+	}
+
 }
