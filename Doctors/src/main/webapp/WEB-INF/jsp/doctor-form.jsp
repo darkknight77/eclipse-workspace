@@ -93,7 +93,7 @@
                 return false;
             }
     
-            if(salary <= 0) {
+            if(specialization.length <= 0) {
                 alert('Please specify your specialization');
                 $('#specialization').focus();
                 return false;

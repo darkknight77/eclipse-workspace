@@ -35,9 +35,9 @@ public class DoctorController {
 	}
 
 	@RequestMapping(value = "searchDoctor", method = RequestMethod.GET)
-	public ModelAndView getDoctors(@RequestParam("doctorName") String doctorName) {
+	public ModelAndView searchDoctors(@RequestParam("doctorName") String doctorName) {
 		logger.info("Getting the all Doctors from search.");
-		List<DoctorModel> doctorsList = doctorService.getDoctors(doctorName);
+		List<DoctorModel> doctorsList = doctorService.searchDoctors(doctorName);
 		logger.info(doctorsList);
 		return new ModelAndView("doctors-list", "doctorsList", doctorsList);
 	}

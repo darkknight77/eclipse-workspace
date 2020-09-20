@@ -17,9 +17,9 @@ public class DoctorService {
 		return doctorDao.getDoctors();
 	}
 
-	public List<DoctorModel> getDoctors(String doctorName) {
+	public List<DoctorModel> searchDoctors(String doctorName) {
 		// TODO Auto-generated method stub
-		return doctorDao.getDoctors(doctorName);
+		return doctorDao.searchDoctors(doctorName);
 	}
 
 	public DoctorModel getDoctor(int id) {
